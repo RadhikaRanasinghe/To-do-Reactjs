@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <h1>
-        Hello World
+        To-Do List
       </h1>
       <form>
         <FormControl>
@@ -48,8 +48,7 @@ function App() {
 
     <ul>
       {todos.map(todo => (
-        <Todo text={todo}/>
-        // <li>{todo}</li>
+        <Todo todo={todo}/>
       ))}
     </ul>
     </div>
